@@ -1,0 +1,68 @@
+/* Global Styles */
+body { 
+    background: #f2f2f2;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container Styling */
+  .container { 
+    background: #3f2e2e18; 
+    border: 3px solid #611c1c;
+    border-radius: 10px; 
+    padding: 30px; 
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect for Container */
+  .container:hover {
+    border-color: #4CAF50;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Headings */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Input & Button Styling */
+  input, button { 
+    padding: 10px 15px; 
+    font-size: 16px; 
+    margin: 5px 0;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Button Specific Styling */
+  button {
+    background: #319234;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* Weather Info Section */
+  .weather-info { 
+    margin-top: 20px; 
+    font-size: 18px; 
+    color: #555;
+  }
+  
